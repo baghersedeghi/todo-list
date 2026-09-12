@@ -1,0 +1,17 @@
+.card-h{
+   
+    max-height: 15rem;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* متن بیشتر از ۳ خط نشه */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.title-clamp {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
