@@ -1,16 +1,45 @@
-# React + Vite
+# ✅ Todo List — React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک برنامه مدیریت کارها (Todo List) با React که برای تمرین state management، componentها و طراحی رابط کاربری ساخته شده است.
 
-Currently, two official plugins are available:
+## ✨ ویژگی‌ها
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ افزودن کار جدید
+- ✅ مدیریت وضعیت انجام‌شدن کارها
+- 🗑️ حذف و مدیریت آیتم‌ها
+- 🧩 طراحی component-based
+- 🎨 رابط کاربری با Bootstrap و React-Bootstrap
+- 🔹 استفاده از React Icons
+- ⚡ اجرای سریع با Vite
 
-## React Compiler
+## 🛠️ تکنولوژی‌ها
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite
+- JavaScript (ES6+)
+- Bootstrap 5
+- React-Bootstrap
+- React Icons
 
-## Expanding the ESLint configuration
+## 🚀 اجرا
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+برای ساخت نسخه production:
+
+```bash
+npm run build
+```
+
+## 🎯 هدف پروژه
+
+تمرین مفاهیم پایه React و ساخت یک رابط کاربری کاربردی با componentهای قابل مدیریت و reusable.
+
+## 👨‍💻 توسعه‌دهنده
+
+**Bagher Sedeghi**
+
+GitHub: https://github.com/baghersedeghi
